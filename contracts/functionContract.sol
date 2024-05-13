@@ -2,7 +2,7 @@
 pragma solidity ^0.8.13;
 
 contract ViewAndPure {
-    uint public x = 5;
+    uint public x = 5; 
 
     function addToX(uint y) public view returns (uint) {
         return x + y;
